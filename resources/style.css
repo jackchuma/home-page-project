@@ -68,3 +68,24 @@ li {
 .item p {
     margin-left: 20px;
 }
+
+.team-background {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.team-item img {
+    width: 200px;
+    height: auto;
+}
+
+.team-item {
+    color: white;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
