@@ -47,3 +47,24 @@ li {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.item img {
+    width: 200px;
+    height: auto;
+}
+
+.item p {
+    margin-left: 20px;
+}
